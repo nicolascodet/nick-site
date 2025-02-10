@@ -28,11 +28,15 @@ p {
 a {
     color: inherit;
     text-decoration: underline;
+}
+
+nav a {
     margin-right: 2rem;
 }
 
-a:hover {
-    text-decoration: none;
+p a {
+    margin: 0;
+    white-space: nowrap;
 }
 
 /* Navigation */
