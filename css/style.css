@@ -60,6 +60,29 @@ footer {
     border-top: 1px solid #eee;
 }
 
+/* Blog styles */
+.blog-preview {
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-preview:last-child {
+    border-bottom: none;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.post-navigation {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
     body {
